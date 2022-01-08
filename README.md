@@ -4,22 +4,24 @@
 
 # Get started
 
+1. Install all dependencies
 ```bash
+ yarn
+ ```
 
-  # You can use yarn or npm to run scripts
+ 2. Install husky hooks
+ ```bash
+yarn husky install
+ ```
 
-  # Install all dependencies
-  yarn
+ 3. Create a .env file and copy all data of the .env.example file
 
-  # Install husky
-  yarn husky install
+ 4. Start server
+ ```bash
+ yarn dev
+ ```
 
-  # Create a .env file and copy all data of the .env.example file
-
-  # Start server
-  yarn dev
-
-  # For run tests
-  yarn test
-
-```
+ 5. Run all tests
+ ```bash
+ yarn test
+ ```
